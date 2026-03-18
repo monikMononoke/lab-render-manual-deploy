@@ -22,3 +22,4 @@
 - No necesitas crear una rama separada para `dist`.
 - No subas la carpeta `dist` al repositorio.
 - Para Static Site, no se usa el comando `npm start`.
+- Aunque sea Static Site, `fetch` sigue funcionando porque el navegador ejecuta el JavaScript del frontend y realiza las llamadas HTTP directamente a la API externa.
